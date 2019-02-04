@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class App extends Component {
   render() {
-    return <h1 >Hello Wold!</h1>;
+    return <div >Hello Wold!</div>;
   }
 }
 
