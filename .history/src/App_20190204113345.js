@@ -3,8 +3,7 @@ import React from 'react';
 const App = () => {
   const profiles = [
     { name: "Taro", age: 10 },
-    { name: "Hanako", age: 5 },
-    { name: "NoName" }
+    { name: "Hanako", age: 5 }
   ];
   return (
     <div>
