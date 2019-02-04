@@ -5,7 +5,7 @@ const App = () => {
   const profiles = [
     { name: "Taro", age: 10 },
     { name: "Hanako", age: 5 },
-    { name: "NoName", age: 3 }
+    { name: "NoName" }
   ];
   return (
     <div>

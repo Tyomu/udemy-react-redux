@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 const App = () => {
   const profiles = [
     { name: "Taro", age: 10 },
-    { name: "Hanako", age: 5 },
-    { name: "NoName", age: 3 }
+    { name: "Hanako", age: "5" },
+    { name: "NoName" }
   ];
   return (
     <div>
@@ -24,6 +24,6 @@ const User = (props) => {
 
 User.propTypes = {
   name: PropTypes.string,
-  age: PropTypes.number.isRequired
+  age: PropTypes.number
 }
 export default App;
