@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 // class App extends Component {
 //   render() {
@@ -12,17 +12,6 @@ import React from 'react';
 // }
 
 const App = () => {
-  return (
-    <div>
-      <Cat />
-      <Cat />
-      <Cat />
-      <Cat />
-    </div>
-  )
-}
-
-const Cat = () => {
-  return <div>Meow!</div>
+  return <div>Hi!</div>
 }
 export default App;

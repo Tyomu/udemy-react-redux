@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 // class App extends Component {
 //   render() {
@@ -19,7 +19,7 @@ const App = () => {
       <Cat />
       <Cat />
     </div>
-  )
+  }
 }
 
 const Cat = () => {
